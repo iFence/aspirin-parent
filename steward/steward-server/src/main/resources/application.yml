@@ -7,13 +7,13 @@ spring.datasource:
   password: root
   driver-class-name: com.mysql.cj.jdbc.Driver
   # 系统启动创建表
-#  schema: classpath:sql/aspirin.sql
-#  initalization-mode: always
+  schema: classpath:sql/aspirin.sql
+  initalization-mode: always
 
 #spring security
-#spring.security.user:
-#  name: yulei
-#  password: 123
+spring.security.user:
+  name: kenn
+  password: 111
 logging:
   file:
     name: ./steward/logs/aspirin.log
