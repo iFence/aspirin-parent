@@ -1,0 +1,22 @@
+server:
+  port: 1217
+
+spring.datasource:
+  url: jdbc:mysql://localhost:3306/aspirin
+  username: root
+  password: root
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  # 系统启动创建表
+#  schema: classpath:sql/aspirin.sql
+#  initalization-mode: always
+
+#spring security
+#spring.security.user:
+#  name: yulei
+#  password: 123
+logging:
+  file:
+    name: ./steward/logs/aspirin.log
+    max-size: 128MB
+  level:
+    ROOT: info
