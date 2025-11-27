@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="hDuTgj6HkA48zSL8BkCY">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="开始" vertex="1">
+          <mxGeometry height="80" width="120" x="110" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="171" y="110" as="sourcePoint" />
+            <mxPoint x="171" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="申请模型" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-4" edge="1" parent="1" source="lVPr3WwO4qC0nHtDpRLL-3" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="320" as="sourcePoint" />
+            <mxPoint x="170" y="340.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-7" edge="1" parent="1" source="lVPr3WwO4qC0nHtDpRLL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lVPr3WwO4qC0nHtDpRLL-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-10" connectable="0" parent="lVPr3WwO4qC0nHtDpRLL-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0667" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否同意" vertex="1">
+          <mxGeometry height="80" width="80" x="130" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-9" edge="1" parent="1" source="lVPr3WwO4qC0nHtDpRLL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lVPr3WwO4qC0nHtDpRLL-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-6" parent="1" style="whiteSpace=wrap;html=1;" value="授权模型" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="流程结束" vertex="1">
+          <mxGeometry height="80" width="120" x="110" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1.004;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" target="lVPr3WwO4qC0nHtDpRLL-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="380" />
+              <mxPoint x="380" y="682" />
+            </Array>
+            <mxPoint x="210" y="380" as="sourcePoint" />
+            <mxPoint x="350" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVPr3WwO4qC0nHtDpRLL-14" connectable="0" parent="lVPr3WwO4qC0nHtDpRLL-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.0218" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
