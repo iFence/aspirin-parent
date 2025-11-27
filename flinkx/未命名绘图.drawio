@@ -13,6 +13,21 @@
             <mxPoint x="204.76" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="-m2XmXPtDL_SBk_fLXXg-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-m2XmXPtDL_SBk_fLXXg-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="150" width="20" x="404" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-m2XmXPtDL_SBk_fLXXg-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="280" as="sourcePoint" />
+            <mxPoint x="400" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-m2XmXPtDL_SBk_fLXXg-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="申请模型" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="250" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
